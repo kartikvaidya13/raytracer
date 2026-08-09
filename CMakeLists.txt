@@ -11,4 +11,13 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
     set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
 endif()
 
-add_executable(raytracer main.cpp)
+add_executable(raytracer
+    src/main.cpp
+    src/vec.cpp
+    src/color.cpp
+    src/ray.cpp
+)
+
+target_include_directories(raytracer PRIVATE
+    ${CMAKE_SOURCE_DIR}/include
+)
