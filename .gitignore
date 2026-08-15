@@ -5,6 +5,12 @@ build/
 *.ppm
 *.png
 
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
 # Editor/IDE
 .vscode/
 
