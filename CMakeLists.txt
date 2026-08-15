@@ -16,6 +16,8 @@ add_executable(raytracer
     src/vec.cpp
     src/color.cpp
     src/ray.cpp
+    src/sphere.cpp
+    src/hittable_list.cpp
 )
 
 target_include_directories(raytracer PRIVATE

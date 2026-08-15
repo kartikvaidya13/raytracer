@@ -1,9 +1,9 @@
 #ifndef COLOR_H
 #define COLOR_H
 
-#include "vec.h"
-
 #include <iostream>
+
+#include "vec.h"
 
 using color = vec;
 
