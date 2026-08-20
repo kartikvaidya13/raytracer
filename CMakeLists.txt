@@ -13,11 +13,6 @@ endif()
 
 add_executable(raytracer
     src/main.cpp
-    src/vec.cpp
-    src/color.cpp
-    src/ray.cpp
-    src/sphere.cpp
-    src/hittable_list.cpp
 )
 
 target_include_directories(raytracer PRIVATE

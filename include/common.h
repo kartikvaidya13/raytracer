@@ -1,5 +1,5 @@
-#ifndef RAYTRACER_H
-#define RAYTRACER_H
+#ifndef COMMON_H
+#define COMMON_H
 
 #include <cmath>
 #include <iostream>
@@ -21,6 +21,7 @@ inline double degs_to_rads(double degs) {
 
 // Common Headers
 #include "color.h"
+#include "interval.h"
 #include "ray.h"
 #include "vec.h"
 
